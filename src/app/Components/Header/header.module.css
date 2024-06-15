@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 .header_main{
     width: 100%;
     height: 100px;
-    background-color: #002428;
+    background-color: #092123;
 }
 .container{
     max-width: 1280px;
@@ -109,10 +111,24 @@
         left: 0;
         right: 0;
         text-align: center;
-        background-color: #002428;
+        background-color: #092123;
         display: flex;
         flex-direction: column;
         padding: 0 0  20px;
+    }
+    .active h1 {
+        font-family: "Lora", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal; 
+        letter-spacing: .2rem;
+    }
+    .active .p{
+        font-weight: 400;
+        font-size: 12px;
+        margin-top: 20px;
+        letter-spacing: .1rem;
+        color: #555454;
     }
     .burger {
         display: block;

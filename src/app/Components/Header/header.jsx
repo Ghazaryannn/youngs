@@ -2,8 +2,7 @@
 
 import React, { useState } from 'react'
 import styles from './header.module.css'
-import logo from '../../../../public/logo.jpeg'
-import logofull from '../../../../public/logo2.jpeg'
+import logo from '../../../../public/logo.jpg'
 import Image from 'next/image'
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
@@ -23,7 +22,7 @@ const Header = () => {
                     </div>
                     <div className={styles.header_menu}>
                         <ul className={open ? styles.ul : styles.active}>
-                            <li> {open ? '' : <Image src={logofull} className={styles.fulllogo}  height={100} />} </li>
+                            <li> {open ? '' : <h1>YOUNGS <br /> PRODUCTION <br /> <p className={styles.p}>ORGANIZATION OF EVENTYS</p></h1>} </li>
                             <li>Մեր մասին</li>
                             <li>Ծառայություններ</li>
                             <li><FaPhoneAlt className={styles.phone}/> + (374) 77-79-92-22</li>
